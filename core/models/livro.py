@@ -5,6 +5,7 @@ from .autor import Autor
 from uploader.models import Image
 
 
+
 class Livro(models.Model):
   
     titulo = models.CharField(max_length=255)
